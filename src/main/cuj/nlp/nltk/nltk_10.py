@@ -38,7 +38,7 @@ for segment in segments:
 key_words = pynlpir.get_key_words(s, weighted=True)
 for key_word in key_words:
     print(key_word[0], '\t', key_word[1])
-
+    
 print('------------------End---------------------')
 pynlpir.close()
 # --------------------结束---------------------------
